@@ -143,6 +143,7 @@ public class JavaTypes {
 		// \' (\\u0027) Одинарная кавычка
 		// \\ (\\u005c) Обратная косая черта
 
+		System.out.println();
 	}
 
 }
