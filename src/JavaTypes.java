@@ -125,7 +125,7 @@ public class JavaTypes {
 		c = 'A';
 		System.out.println("Символ : " + c);
 		// Кодовые единицы Unicode могут быть представлены шестнадцатеричными числами в
-		// пределаз от \u0000 до \uFFFF
+		// пределах от \u0000 до \uFFFF
 		System.out.println("Символ Unicode \\u2122 : " + '\u2122');
 		// Управляющие последовательности символов в Unicode обрабатываются перед
 		// синтаксическим анализатором кода. Поэтому нужно быть осторожным в их
@@ -144,6 +144,11 @@ public class JavaTypes {
 		// \\ (\\u005c) Обратная косая черта
 
 		System.out.println();
+
+		String s1 = "1234567890";
+		System.out.println(s1.substring(2, 5));
+		System.out.println(s1.replace("345", "000"));
+
 	}
 
 }
