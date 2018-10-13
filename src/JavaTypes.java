@@ -1,7 +1,7 @@
 import java.math.BigDecimal;
 
 /**
- * Типы занных Java
+ * Типы данных Java
  */
 public class JavaTypes {
 
